@@ -1,12 +1,12 @@
 {
   "app": "aptus",
-  "version": "0.12.3",
+  "version": "0.12.4",
   "fecha": "2026-11-11",
-  "bytes": 1281798,
-  "sha256": "6b8f917ca6fd497bc09d999a25cbad0603e86a900c6abe83dca8fbe5c94af098",
-  "firma": "5ynfZpU0YjF2mXnuv2E46bfY+/4+CFgGrav7iKebXFHHwQ3jvCWYLU6rj7BaX4JskjeQIKLnDLf1qaKAN1fXvg==",
+  "bytes": 1281942,
+  "sha256": "d367d1ed6f44137220748c0c8f7e2ed7db1e9de258524ad65102425dd85912ea",
+  "firma": "Mz2E4n7yQc3uA2ypscEfssfB6k2XTgtYL7kW2r6lBLzHZ9nAJ6gJcTml60QgbFXa/EaND/AQQo3aV/u8ENqeLA==",
   "notas": [
-    "Menú lateral con teclado: pulse G y luego la letra de la opción (G O = Órdenes de trabajo, G E = Equipos, G P = Programación…). Al pulsar G, o al mantener Alt, aparece la letra junto a cada opción.",
-    "La letra de cada opción también aparece en \"Ir a…\" (Ctrl+K) y en la ayuda de atajos (Ctrl+/)."
+    "Menú lateral con teclado: al mantener Alt, cada opción muestra \"G\" y su letra (G E = Equipos), para no confundirlo con Alt + letra.",
+    "Soltar Alt ya no lleva el foco al menú del navegador; así la G siguiente llega a la app."
   ]
 }

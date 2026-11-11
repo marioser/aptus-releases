@@ -1,18 +1,12 @@
 {
   "app": "aptus",
-  "version": "0.12.2",
+  "version": "0.12.3",
   "fecha": "2026-11-11",
-  "bytes": 1280759,
-  "sha256": "51ef1adc5355d44cf4fe120574d04a3242cd344b990d2f9dd5467127910d615a",
-  "firma": "vxgR82yl2p9tQLJe/0m0MxE/WXZdNxdaB6Ybr2yXDWzIKRVC9H8B+lRn1HAbBqWrb1UTgP7mm+HhxMo8vK8FZw==",
+  "bytes": 1281798,
+  "sha256": "6b8f917ca6fd497bc09d999a25cbad0603e86a900c6abe83dca8fbe5c94af098",
+  "firma": "5ynfZpU0YjF2mXnuv2E46bfY+/4+CFgGrav7iKebXFHHwQ3jvCWYLU6rj7BaX4JskjeQIKLnDLf1qaKAN1fXvg==",
   "notas": [
-    "Atajos de teclado: Ctrl+S guardar, Alt+N nuevo, Alt+B buscar, Ctrl+K ir a una pantalla, Ctrl+/ ver todos los atajos.",
-    "Con la tecla Alt presionada se ve la letra de cada botón; Alt + esa letra lo pulsa.",
-    "Un clic fuera de un formulario ya no lo cierra; si escribió algo, Esc pregunta antes de descartarlo.",
-    "Iconos en el menú lateral.",
-    "Documentos PDF por equipo (manuales, planos, fichas técnicas): subir, abrir, descargar y eliminar.",
-    "Los técnicos ven los equipos en modo lectura, sin valores.",
-    "Certificaciones con código corto (TA, IZ…).",
-    "Las descargas con tildes en el nombre ya no salen como \"download\"."
+    "Menú lateral con teclado: pulse G y luego la letra de la opción (G O = Órdenes de trabajo, G E = Equipos, G P = Programación…). Al pulsar G, o al mantener Alt, aparece la letra junto a cada opción.",
+    "La letra de cada opción también aparece en \"Ir a…\" (Ctrl+K) y en la ayuda de atajos (Ctrl+/)."
   ]
 }

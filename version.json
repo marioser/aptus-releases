@@ -1,14 +1,17 @@
 {
   "app": "aptus",
-  "version": "0.11.2",
+  "version": "0.12.0",
   "fecha": "2026-11-11",
-  "bytes": 1254952,
-  "sha256": "a331eca8788ebfb9b729eac3fdc6895d2f138cf64b5c5030a640e94027a6a993",
-  "firma": "iKl1AKLHanhB6pV2Els10xydep5AOkVSQX6dU0NZ6LnI9THxZgDM0ewGEvrjiaV8l63Cdo55sQW9IpW5f5gGQA==",
+  "bytes": 1262634,
+  "sha256": "6cb26cd4280335b6b758f94301dbb49ed7267e8b82c0b8950a949f328238c828",
+  "firma": "VETvpkRUUp4Ti/IHPL2y4rnmVmkz1m1rQXBQ9WzCbz4wUDqJ8AB9IixfoO4+huPjg5z5PnABvPqcEUD0ioOvhA==",
   "notas": [
-    "La app avisa cuando hay una versión nueva y se actualiza con un clic desde GitHub.",
-    "Antes de instalar, verifica la firma de la versión; la anterior queda en la carpeta respaldo-app.",
-    "Si la app está en la carpeta compartida, la actualiza el administrador y queda actualizada para todos.",
-    "Botón \"Buscar actualizaciones\" en la pantalla de inicio."
+    "Siempre se ingresa con usuario y PIN. Toda base tiene el usuario root, que no se puede borrar.",
+    "El root nace con el PIN 0000 y debe cambiarlo al primer ingreso; recibe un código de recuperación por si lo olvida.",
+    "Cualquier usuario puede cambiar su PIN con \"Cambiar mi PIN\".",
+    "Al actualizarse, la app avisa que quedó actualizada y se reinicia sola.",
+    "En la ficha del equipo se pueden crear componentes, relacionar los que ya existen y quitarlos.",
+    "Clases de equipo: explica qué es una clase y permite ver, agregar y mover sus equipos.",
+    "Programación: cada ejecución se puede editar o reprogramar desde la tabla."
   ]
 }

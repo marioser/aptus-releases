@@ -1,0 +1,26 @@
+# Cuando llega una versión nueva (version.json cambia en main), crea el Release público v<versión>
+# con el archivo index.html y sus novedades. Los archivos los sube la Action de marioser/aptus.
+name: Release
+
+on:
+  push:
+    branches: [main]
+    paths: [version.json]
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  release:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Crear el Release
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          VERSION=$(node -p "require('./version.json').version")
+          if gh release view "v${VERSION}" >/dev/null 2>&1; then echo "v${VERSION} ya existe"; exit 0; fi
+          node -e "const v=require('./version.json');console.log((v.notas.length?v.notas.map(n=>'- '+n).join('\n'):'Sin notas.')+'\n\nPara instalarla, abra la app y pulse **Actualizar** en el aviso de versión nueva. También puede descargar index.html y reemplazar el suyo.\n\nsha256: \`'+v.sha256+'\`')" > notas.md
+          gh release create "v${VERSION}" index.html --target "$GITHUB_SHA" --title "v${VERSION}" --notes-file notas.md --latest

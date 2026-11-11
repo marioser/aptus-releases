@@ -1,17 +1,18 @@
 {
   "app": "aptus",
-  "version": "0.12.0",
+  "version": "0.12.2",
   "fecha": "2026-11-11",
-  "bytes": 1262634,
-  "sha256": "6cb26cd4280335b6b758f94301dbb49ed7267e8b82c0b8950a949f328238c828",
-  "firma": "VETvpkRUUp4Ti/IHPL2y4rnmVmkz1m1rQXBQ9WzCbz4wUDqJ8AB9IixfoO4+huPjg5z5PnABvPqcEUD0ioOvhA==",
+  "bytes": 1280759,
+  "sha256": "51ef1adc5355d44cf4fe120574d04a3242cd344b990d2f9dd5467127910d615a",
+  "firma": "vxgR82yl2p9tQLJe/0m0MxE/WXZdNxdaB6Ybr2yXDWzIKRVC9H8B+lRn1HAbBqWrb1UTgP7mm+HhxMo8vK8FZw==",
   "notas": [
-    "Siempre se ingresa con usuario y PIN. Toda base tiene el usuario root, que no se puede borrar.",
-    "El root nace con el PIN 0000 y debe cambiarlo al primer ingreso; recibe un código de recuperación por si lo olvida.",
-    "Cualquier usuario puede cambiar su PIN con \"Cambiar mi PIN\".",
-    "Al actualizarse, la app avisa que quedó actualizada y se reinicia sola.",
-    "En la ficha del equipo se pueden crear componentes, relacionar los que ya existen y quitarlos.",
-    "Clases de equipo: explica qué es una clase y permite ver, agregar y mover sus equipos.",
-    "Programación: cada ejecución se puede editar o reprogramar desde la tabla."
+    "Atajos de teclado: Ctrl+S guardar, Alt+N nuevo, Alt+B buscar, Ctrl+K ir a una pantalla, Ctrl+/ ver todos los atajos.",
+    "Con la tecla Alt presionada se ve la letra de cada botón; Alt + esa letra lo pulsa.",
+    "Un clic fuera de un formulario ya no lo cierra; si escribió algo, Esc pregunta antes de descartarlo.",
+    "Iconos en el menú lateral.",
+    "Documentos PDF por equipo (manuales, planos, fichas técnicas): subir, abrir, descargar y eliminar.",
+    "Los técnicos ven los equipos en modo lectura, sin valores.",
+    "Certificaciones con código corto (TA, IZ…).",
+    "Las descargas con tildes en el nombre ya no salen como \"download\"."
   ]
 }

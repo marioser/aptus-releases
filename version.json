@@ -1,12 +1,16 @@
 {
   "app": "aptus",
-  "version": "0.13.1",
+  "version": "0.13.2",
   "fecha": "2026-11-18",
-  "bytes": 1338513,
-  "sha256": "c7dc2f248b73cf5080027796c33f75ad8b9d89ea4ecc4ca474d7547b553bb7d2",
-  "firma": "1O2hKcrnfNp1cTAYu9wcWaoGblWgm97KxVMOfLqwaC2gYrbwiyeeWCnTl7KSvBVi7ByT/1+3V03p9xFHD2P49Q==",
+  "bytes": 1341009,
+  "sha256": "855eaa6df49b7b0811288afda292098576a23ab86a9dd88d60c1353c542befcc",
+  "firma": "JNsbDriQ9yuBujeYlGnQFgPIIiq/tEHGuDlaETOAh7aWU4fZwd6A8lEEP1+HJ+B/IMpF7QiivX0Hhe04Ikyxqg==",
   "notas": [
-    "Configuración › Actualizaciones de la app: versión instalada y publicada, novedades, \"Buscar actualizaciones\" y \"Actualizar\" en un solo lugar.",
-    "La búsqueda automática al abrir se puede apagar en cada equipo."
+    "Un solo botón Guardar: al guardar un formulario (CREC, orden de trabajo, tarea, componente, equipo…) la app guarda sola en la carpeta compartida o en el archivo abierto.",
+    "El Guardar de la barra superior solo aparece cuando hace falta guardar a mano: base nueva sin archivo, guardado por descarga o si el guardado automático no pudo escribir.",
+    "Ctrl+S guarda lo pendiente aunque no se vea el botón.",
+    "Proveedores: catálogo en Inventario › Proveedores (NIT, contacto, qué repara). En el CREC se elige de la lista y al enviar a reparación se puede registrar uno nuevo; los escritos a mano pasan solos al catálogo.",
+    "El texto del QR ya no lleva el nombre de la app: empieza con \"CREC <número> · <sede>\".",
+    "Corregido: la lista de Tracking CREC podía quedar vacía después de abrir un catálogo (roles, personas…)."
   ]
 }

@@ -1,16 +1,13 @@
 {
   "app": "aptus",
-  "version": "0.13.2",
+  "version": "0.14.0",
   "fecha": "2026-11-18",
-  "bytes": 1341009,
-  "sha256": "855eaa6df49b7b0811288afda292098576a23ab86a9dd88d60c1353c542befcc",
-  "firma": "JNsbDriQ9yuBujeYlGnQFgPIIiq/tEHGuDlaETOAh7aWU4fZwd6A8lEEP1+HJ+B/IMpF7QiivX0Hhe04Ikyxqg==",
+  "bytes": 1343068,
+  "sha256": "b9eca88715c228d4b168751035bf99c9aec161951acc19eedbd2a19f59190c68",
+  "firma": "bJQ9QkEYejpVb5eIPC3qWc8nMS2cua6swiQekBZq32QwjYyZduhGldDCNoPNiR8EEh6blQGsiC+BKQGSP/h1PQ==",
   "notas": [
-    "Un solo botón Guardar: al guardar un formulario (CREC, orden de trabajo, tarea, componente, equipo…) la app guarda sola en la carpeta compartida o en el archivo abierto.",
-    "El Guardar de la barra superior solo aparece cuando hace falta guardar a mano: base nueva sin archivo, guardado por descarga o si el guardado automático no pudo escribir.",
-    "Ctrl+S guarda lo pendiente aunque no se vea el botón.",
-    "Proveedores: catálogo en Inventario › Proveedores (NIT, contacto, qué repara). En el CREC se elige de la lista y al enviar a reparación se puede registrar uno nuevo; los escritos a mano pasan solos al catálogo.",
-    "El texto del QR ya no lleva el nombre de la app: empieza con \"CREC <número> · <sede>\".",
-    "Corregido: la lista de Tracking CREC podía quedar vacía después de abrir un catálogo (roles, personas…)."
+    "Roles con módulos: en Personal › Roles el administrador marca a qué módulos entra cada rol (Componentes, Equipos, Órdenes, Backlog…). Quien tenga ese rol no ve los demás en el menú ni puede abrirlos. Sin marcar ninguno, el rol ve todo lo de su perfil, como antes.",
+    "Si el rol no tiene Órdenes de trabajo, se ocultan también los botones que crean o abren órdenes en Programación, Backlog y la ficha del equipo; lo mismo con las pestañas de la ficha del equipo (Componentes, Historial, Backlog, CREC).",
+    "La versión de la app se ve bajo su nombre, arriba a la izquierda; si hay una más nueva, lo indica. Un clic busca actualizaciones (el administrador va a Configuración › Actualizaciones de la app)."
   ]
 }

@@ -1,16 +1,12 @@
 {
   "app": "aptus",
-  "version": "0.13.0",
+  "version": "0.13.1",
   "fecha": "2026-11-18",
-  "bytes": 1337229,
-  "sha256": "e2297a02ad1535176e372e19c43021a2194a112413f374b2bf3a2a286cfea462",
-  "firma": "qbemyl8szfYp4Q9WIbMPxGKZZ/TbPIumlEgjpoUW1xwHnS/XEWaxkgApyXqpi+pTXmM9sKjYmZ0qhwoBylc9Jw==",
+  "bytes": 1338513,
+  "sha256": "c7dc2f248b73cf5080027796c33f75ad8b9d89ea4ecc4ca474d7547b553bb7d2",
+  "firma": "1O2hKcrnfNp1cTAYu9wcWaoGblWgm97KxVMOfLqwaC2gYrbwiyeeWCnTl7KSvBVi7ByT/1+3V03p9xFHD2P49Q==",
   "notas": [
-    "Tracking de componentes (CREC): registre componentes, equipos o herramientas que salen de servicio y siga su recorrido hasta la reparación (procesado, autorizado, en almacén, en reparación, reparado, cerrado).",
-    "El CREC no repite datos: equipo, componente, posición, OT y personas se enlazan; modelo, serie, P/N, fabricante, peso y valor se leen de sus fichas.",
-    "Ficha de identificación para pegar en el componente (150 × 100 mm o carta) con código QR: al escanearlo con cualquier celular se ven todos los datos, sin internet.",
-    "Horómetro, fecha de instalación y horas de servicio se completan solos; la remoción reinicia la vida útil de la posición.",
-    "Busque los CREC desde la ficha del equipo (pestaña Reparaciones) y desde el componente; la tabla de componentes marca los que están en reparación.",
-    "Nuevos datos: modelo, serie y fabricante del equipo; P/N, fabricante, peso y medidas del componente."
+    "Configuración › Actualizaciones de la app: versión instalada y publicada, novedades, \"Buscar actualizaciones\" y \"Actualizar\" en un solo lugar.",
+    "La búsqueda automática al abrir se puede apagar en cada equipo."
   ]
 }

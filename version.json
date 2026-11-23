@@ -1,13 +1,17 @@
 {
   "app": "aptus",
-  "version": "0.14.0",
-  "fecha": "2026-11-18",
-  "bytes": 1343068,
-  "sha256": "b9eca88715c228d4b168751035bf99c9aec161951acc19eedbd2a19f59190c68",
-  "firma": "bJQ9QkEYejpVb5eIPC3qWc8nMS2cua6swiQekBZq32QwjYyZduhGldDCNoPNiR8EEh6blQGsiC+BKQGSP/h1PQ==",
+  "version": "0.15.0",
+  "fecha": "2026-11-23",
+  "bytes": 1384823,
+  "sha256": "091153a8145901b429d5e2b6a5c40a3803b05aaacb703298338ad215a1430fc6",
+  "firma": "UHWkzy4FSBx1xw0TOKnOZRh41l0Qc9aDoEg8nnk5FEfWwOenoa5VfWSruGPWoD/+W8c2qXUyLXFw0dIATEYhAA==",
   "notas": [
-    "Roles con módulos: en Personal › Roles el administrador marca a qué módulos entra cada rol (Componentes, Equipos, Órdenes, Backlog…). Quien tenga ese rol no ve los demás en el menú ni puede abrirlos. Sin marcar ninguno, el rol ve todo lo de su perfil, como antes.",
-    "Si el rol no tiene Órdenes de trabajo, se ocultan también los botones que crean o abren órdenes en Programación, Backlog y la ficha del equipo; lo mismo con las pestañas de la ficha del equipo (Componentes, Historial, Backlog, CREC).",
-    "La versión de la app se ve bajo su nombre, arriba a la izquierda; si hay una más nueva, lo indica. Un clic busca actualizaciones (el administrador va a Configuración › Actualizaciones de la app)."
+    "Nuevo módulo Herramientas: dé de alta cada herramienta con el ID de su etiqueta NFC o QR, tipo, marca, color, energía (eléctrica, neumática, hidráulica o manual), serie, empresa y foto. El código se asigna solo por taxonomía: ELE-PUL-0001.",
+    "Tipos de herramienta: cada tipo define su código, la vigencia del certificado (3, 6 o 12 meses) y su formulario de inspección.",
+    "Formularios de inspección: constructor de secciones y preguntas (cumple / no cumple, número con rango, selección, texto o foto) con preguntas críticas, vista previa y un ejemplo para empezar. Cada versión publicada queda fija y se puede exportar e importar en JSON.",
+    "Inspecciones: si pasa, se emite un certificado de validez de uso; si falla una pregunta crítica, la herramienta queda No apta. La lista de herramientas muestra cuáles están habilitadas, por vencer, vencidas o no aptas, y la de inspecciones muestra la empresa y se filtra por ella.",
+    "Etiquetas QR para imprimir (62 × 30 mm o 24 por hoja carta) y certificado en PDF.",
+    "Paquete para la futura app móvil de inspección y lectura de sus resultados.",
+    "Proveedores pasa a llamarse Empresas: un solo registro para talleres, contratistas y dueños de herramientas."
   ]
 }
